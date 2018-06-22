@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
       word.reverse
     end
   end
-  sentence_operation.join(" ")
+  sentence_operation(splitted_sentence).join(" ")
 end
