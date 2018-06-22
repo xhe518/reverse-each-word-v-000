@@ -1,0 +1,9 @@
+def reverse_each_word(sentence)
+  splitted_sentence = sentence.split(" ")
+  def sentence_operation(splitted_sentence)
+    splitted_sentence.map do |word|
+      word.reverse
+    end
+  end
+  sentence_operation.join(" ")
+end
